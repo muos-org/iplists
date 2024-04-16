@@ -1,0 +1,24 @@
+# ----------------------------------------------------------------
+# Description   : Apple OS Update Servers 
+# Filename      : os-updates-tcp-443.txt
+# Type          : firewall allow list of hosts, tcp port 443
+# Upstream      : https://support.apple.com/en-us/101555
+# Maintainer    : Rich Persaud
+# ----------------------------------------------------------------
+#
+configuration.apple.com
+gdmf.apple.com
+gg.apple.com
+gs.apple.com
+ig.apple.com
+mesu.apple.com
+ns.itunes.apple.com
+oscdn.apple.com
+osrecovery.apple.com
+skl.apple.com
+swcdn.apple.com
+swdist.apple.com
+swdownload.apple.com
+swscan.apple.com
+updates.cdn-apple.com
+xp.apple.com

@@ -1,0 +1,17 @@
+# ----------------------------------------------------------------
+# Description   : Apple OS Update Servers 
+# Filename      : os-updates-tcp-80.txt
+# Type          : firewall allow list of hosts, tcp port 80
+# Upstream      : https://support.apple.com/en-us/101555
+# Maintainer    : Rich Persaud
+# ----------------------------------------------------------------
+#
+appldnld.apple.com
+gg.apple.com
+gs.apple.com
+mesu.apple.com
+oscdn.apple.com
+osrecovery.apple.com
+swcdn.apple.com
+swdownload.apple.com
+updates-http.cdn-apple.com
