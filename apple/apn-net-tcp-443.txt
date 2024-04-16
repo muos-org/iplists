@@ -1,0 +1,24 @@
+# ----------------------------------------------------------------
+# Description   : Apple Push Notification (APN) Networks
+# Filename      : apn.txt
+# Type          : firewall allow list of IP networks
+# Upstream      : https://support.apple.com/en-in/102266
+# Maintainer    : Rich Persaud
+# ----------------------------------------------------------------
+#
+# Requires at least TCP port 443.
+#
+# TCP port 5223 is used to communicate with APNs.
+# TCP port 443 or 2197 is used to send notifications to APNs.
+#
+# TCP port 443 is used during device activation, and afterwards 
+# as fallback if devices can't reach APNs on port 5223. The 
+# connection on port 443 uses a proxy as long as the proxy allows
+# the communication to pass through without decrypting.
+#
+#
+17.249.0.0/16
+17.188.128.0/18
+17.252.0.0/16
+17.57.144.0/22
+17.188.20.0/23
