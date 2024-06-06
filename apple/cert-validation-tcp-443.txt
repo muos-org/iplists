@@ -1,0 +1,11 @@
+# ----------------------------------------------------------------
+# Description   : Apple Certificate Validation Servers 
+# Filename      : cert-validation-tcp-443.txt
+# Type          : firewall allow list of hosts, tcp port 443
+# Upstream      : https://support.apple.com/en-us/101555
+# Maintainer    : Rich Persaud
+# ----------------------------------------------------------------
+#
+certs.apple.com
+ocsp2.apple.com
+valid.apple.com

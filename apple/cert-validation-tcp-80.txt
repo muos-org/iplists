@@ -1,0 +1,16 @@
+# ----------------------------------------------------------------
+# Description   : Apple Certificate Validation Servers 
+# Filename      : cert-validation-tcp-80.txt
+# Type          : firewall allow list of hosts, tcp port 80
+# Upstream      : https://support.apple.com/en-us/101555
+# Maintainer    : Rich Persaud
+# ----------------------------------------------------------------
+#
+certs.apple.com
+crl.apple.com
+crl.entrust.net
+crl3.digicert.com
+crl4.digitcert.com
+ocsp.apple.com
+ocsp.digicert.com
+ocsp.entrust.net
